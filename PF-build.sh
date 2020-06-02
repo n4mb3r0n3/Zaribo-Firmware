@@ -32,6 +32,18 @@
 # 4. Run git Bash under Administrator privilege and navigate to the directory /c/Program Files/Git/mingw64/bin,
 #    you can run the command ln -s /c/Program Files/7-Zip/7z.exe zip.exe
 #
+# Or Ubuntu in a Virtual Machine
+# 1. Download and Install a Virtualisation Software (example VMware) https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
+# 2. Download and install Ubuntu in VMware https://ubuntu.com/download
+# 3. Zip / Python3 is already installed check the version with "apt show python3"
+# 4. Make the Python version your default with "ln -sf /usr/bin/python3.X /usr/bin/python" X = your version 
+# 5. Install git with "sudo apt-get install git"
+# 6. Use git to clone Zaribo Firmware with "sudo git clone https://github.com/Zaribo/Zaribo-firmware.git"
+# 7. Change directory to Zaribo-Firmware wit "cd Zaribo-Firmware"
+# 8. Open the PF-build.sh with "sudo ./PF-build.sh"
+# 9. Wait for Arduino IDE that is going to be installed
+# 10. Follow the Instructions in the Terminal
+#
 # Useful things to edit and compare your custom Firmware
 # 1. Download and install current and correct (64bit or 32bit) Notepad++ version https://notepad-plus-plus.org/download
 # 2. Another great tool to compare your custom mod and stock firmware is WinMerge http://winmerge.org/downloads/?lang=en
